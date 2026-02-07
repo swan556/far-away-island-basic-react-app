@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
 import Form from "./Form";
-import PakagingList from "./PackagingList";
+import PackagingList from "./PackagingList";
 import Stats from "./Stats";
 
 export default function App() {
@@ -38,7 +38,7 @@ export default function App() {
     <div className="app">
       <Logo />
       <Form items={items} onAddItems={handleAddItems} />
-      <PakagingList
+      <PackagingList
         items={items}
         handleDeleteItem={handleDeleteItem}
         handleToggleItem={handleToggleItem}

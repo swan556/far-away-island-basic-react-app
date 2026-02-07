@@ -1,6 +1,6 @@
 import Item from "./Item";
 
-export default function PakagingList({
+export default function PackagingList({
   items,
   handleDeleteItem,
   handleToggleItem,
